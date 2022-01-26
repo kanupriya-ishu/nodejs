@@ -31,6 +31,6 @@ const leaderSchema = new Schema({
     timestamps: true
 });
 
-var Promotions = mongoose.model('Promotion', promotionSchema);
+var Promotions = mongoose.model('Leader', leaderSchema);
 
 module.exports = Promotions;
